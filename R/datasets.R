@@ -1,18 +1,11 @@
-# Hello, world!
-#
-# This is an example function named 'hello' 
-# which prints 'Hello, world!'.
-#
-# You can learn more about package authoring with RStudio at:
-#
-#   https://r-pkgs.org
-#
-# Some useful keyboard shortcuts for package authoring:
-#
-#   Install Package:           'Ctrl + Shift + B'
-#   Check Package:             'Ctrl + Shift + E'
-#   Test Package:              'Ctrl + Shift + T'
+#' @importFrom tibble tibble
+NULL
 
-hello <- function() {
-  print("Hello, world!")
-}
+#' louisiana
+#'
+#' For more see [Statistical Comparison of Heavy Metal Concentrations in Various Louisiana Sediments](https://link.springer.com/article/10.1007/BF00398785)
+#'
+#' @format A tibble with eleven variables: `sample_number`, `depth_m`,
+#' `weight_g`, `volume_ml`, `lead_ppm`, `zinc_ppm`, `cadmium_ppm`,
+#' `chromium_ppm`, `nickel_ppm`, `iron_percent`, `aluminum_percent`
+"louisiana"
