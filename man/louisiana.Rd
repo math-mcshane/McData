@@ -8,11 +8,13 @@
 A tibble with eleven variables and 17 rows: \code{sample_number}, \code{depth_m},
 \code{weight_g}, \code{volume_ml}, \code{lead_ppm}, \code{zinc_ppm}, \code{cadmium_ppm},
 \code{chromium_ppm}, \code{nickel_ppm}, \code{iron_percent}, \code{aluminum_percent}
+\describe{
 \item{sample_number}{Sample number.}
 \item{depth_m}{Depth of core sample in meters.}
 \item{weight_g}{Weight of sample representative of core sample in grams.}
 \item{lead_ppm,zinc_ppm,cadmium_ppm,chromium_ppm,nickel_ppm}{Parts per million of lead, zinc, cadmium, chromium, and nickel in portion of core sample analyzed spectrophotometrically.}
 \item{iron_percent,aluminum_percent}{Parts per 100 of iron and aluminum in portion of core sample analyzed spectrophotometrically.}
+}
 }
 \source{
 \href{https://link.springer.com/article/10.1007/BF00398785}{White and Tittlebaum (1984). Statistical Comparison of Heavy Metal Concentrations in Various Louisiana Sediments}.
