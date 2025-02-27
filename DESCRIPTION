@@ -1,6 +1,6 @@
 Package: McData
 Title: Professor McShane's Collection of Datasets
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: 
     person("Ryan P.A.", "McShane", , "rmcshane@uchicago.edu", role = c("aut", "cre", "cph"))
 Description: Professor McShane's collection of datasets; from a variety of places...
