@@ -8,6 +8,7 @@
 A tibble with eleven variables and 17 rows: \code{sample_number}, \code{depth_m},
 \code{weight_g}, \code{volume_ml}, \code{lead_ppm}, \code{zinc_ppm}, \code{cadmium_ppm},
 \code{chromium_ppm}, \code{nickel_ppm}, \code{iron_percent}, \code{aluminum_percent}
+
 \describe{
 \item{sample_number}{Sample number.}
 \item{depth_m}{Depth of core sample in meters.}
